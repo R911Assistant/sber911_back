@@ -1,0 +1,164 @@
+{
+  "project" : {
+    "id" : "incident_report-38571-qGZ",
+    "name" : "incident_report-38571-qGZ",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 82071,
+    "path" : "/ВыделениеМесяца",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "выдели"
+    }, {
+      "text" : "выдели месяц"
+    }, {
+      "text" : "выделение месяца"
+    }, {
+      "text" : "видели месяц"
+    }, {
+      "text" : "видели"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "duckling.number",
+      "entity" : "duckling.number",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.ordinal",
+      "entity" : "duckling.ordinal",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.date",
+      "entity" : "duckling.date",
+      "required" : false,
+      "prompts" : [ ]
+    } ]
+  }, {
+    "id" : 82008,
+    "path" : "/МасштабированиеГода",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "увеличь  две тысячи год"
+    }, {
+      "text" : "приблизь 2000 год"
+    }, {
+      "text" : "масштабирование  две тысячи  года"
+    }, {
+      "text" : "масштаб  две тысячи  года"
+    }, {
+      "text" : "приближение  две тысячи года"
+    }, {
+      "text" : "масштабируй две тысячи год"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "duckling.ordinal",
+      "entity" : "duckling.ordinal",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.number",
+      "entity" : "duckling.number",
+      "required" : false,
+      "prompts" : [ ]
+    } ]
+  }, {
+    "id" : 80583,
+    "path" : "/СравнениеКвартала",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "сравни квартал"
+    }, {
+      "text" : "сделай сравнение квартала номер"
+    }, {
+      "text" : "покажи разницу между кварталами"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "duckling.date",
+      "entity" : "duckling.date",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.number",
+      "entity" : "duckling.number",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.ordinal",
+      "entity" : "duckling.ordinal",
+      "required" : false,
+      "prompts" : [ ]
+    } ]
+  }, {
+    "id" : 80585,
+    "path" : "/СравнениеМесяца",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "сравни месяц"
+    }, {
+      "text" : "сравни"
+    }, {
+      "text" : "сделай сравнение месяца"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "duckling.date",
+      "entity" : "duckling.date",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.number",
+      "entity" : "duckling.number",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.ordinal",
+      "entity" : "duckling.ordinal",
+      "required" : false,
+      "prompts" : [ ]
+    } ]
+  }, {
+    "id" : 80586,
+    "path" : "/СравнениеПолугодия",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "сравни полугодие"
+    }, {
+      "text" : "сравни половину года"
+    }, {
+      "text" : "сделай сравнение полугодия"
+    }, {
+      "text" : "покажи разницу между половиной года"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "duckling.number",
+      "entity" : "duckling.number",
+      "required" : false,
+      "prompts" : [ ]
+    }, {
+      "name" : "duckling.ordinal",
+      "entity" : "duckling.ordinal",
+      "required" : false,
+      "prompts" : [ ]
+    } ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.ordinal", "duckling.date", "duckling.number" ]
+}
