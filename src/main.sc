@@ -30,7 +30,7 @@ patterns:
     $OpenKeyWords = (включи|включить|включай|запусти|запустить|запускай|играть|
         поиграть|поиграем|навык|игра|игру|скил|скилл|приложение|апп|сыграем|
         открой|поиграй со мной|сыграть|давай играть|активируй|давай|поиграем)
-    $projectName = incident report
+    $projectName = sber report
 
 
 theme: /
@@ -43,7 +43,7 @@ theme: /
             $repeat<$OpenKeyWords>
             [$repeat<$OpenSkipWords>] 
             $projectName
-
+        a: Давай уже
 
     state: Fallback
         event!: noMatch
