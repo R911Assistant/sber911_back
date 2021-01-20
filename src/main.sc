@@ -10,7 +10,6 @@ require: js/actions.js
 
 # Подключение сценарных файлов
 require: scenario/serverActions.sc
-require: scenario/goTo.sc
 require: scenario/comparePeriod.sc
 require: scenario/zoomPeriod.sc
 require: scenario/selectSeries.sc
