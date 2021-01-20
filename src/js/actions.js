@@ -1,6 +1,6 @@
-function goToGroupDasbord(name, context) {
+function goToServiceGroup(name, context) {
     addAction({
-        type: "go_to_dashboard",
+        type: "go_to_service_group",
         name: name
     }, context);
 }
