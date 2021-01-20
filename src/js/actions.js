@@ -1,5 +1,14 @@
 
 
+function goToGroupDasbord(groupName, context) {
+    addAction({
+        type: "go_to_group_dashboard",
+        groupName: groupName
+    }, context);
+}
+
+
+
 function goTo(place, context) {
     addAction({
         type: "go_to",
