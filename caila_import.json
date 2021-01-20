@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "incident_report-38571-qGZ",
-    "name" : "incident_report-38571-qGZ",
+    "id" : "sber_report-38571-inB",
+    "name" : "sber_report-38571-inB",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -12,7 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 82071,
+    "id" : 91588,
     "path" : "/ВыделениеМесяца",
     "enabled" : true,
     "shared" : false,
@@ -32,20 +32,23 @@
       "name" : "duckling.number",
       "entity" : "duckling.number",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.ordinal",
       "entity" : "duckling.ordinal",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.date",
       "entity" : "duckling.date",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ]
   }, {
-    "id" : 82008,
+    "id" : 91589,
     "path" : "/МасштабированиеГода",
     "enabled" : true,
     "shared" : false,
@@ -67,15 +70,17 @@
       "name" : "duckling.ordinal",
       "entity" : "duckling.ordinal",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.number",
       "entity" : "duckling.number",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ]
   }, {
-    "id" : 80583,
+    "id" : 91590,
     "path" : "/СравнениеКвартала",
     "enabled" : true,
     "shared" : false,
@@ -91,20 +96,23 @@
       "name" : "duckling.date",
       "entity" : "duckling.date",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.number",
       "entity" : "duckling.number",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.ordinal",
       "entity" : "duckling.ordinal",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ]
   }, {
-    "id" : 80585,
+    "id" : 91591,
     "path" : "/СравнениеМесяца",
     "enabled" : true,
     "shared" : false,
@@ -120,20 +128,23 @@
       "name" : "duckling.date",
       "entity" : "duckling.date",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.number",
       "entity" : "duckling.number",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.ordinal",
       "entity" : "duckling.ordinal",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ]
   }, {
-    "id" : 80586,
+    "id" : 91592,
     "path" : "/СравнениеПолугодия",
     "enabled" : true,
     "shared" : false,
@@ -151,12 +162,14 @@
       "name" : "duckling.number",
       "entity" : "duckling.number",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     }, {
       "name" : "duckling.ordinal",
       "entity" : "duckling.ordinal",
       "required" : false,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ]
   } ],
   "entities" : [ ],

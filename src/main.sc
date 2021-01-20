@@ -16,6 +16,7 @@ require: scenario/zoomPeriod.sc
 require: scenario/selectSeries.sc
 require: scenario/cancel.sc
 require: scenario/toggleIntegrations.sc
+require: scenario/navigation.sc
 
 
 
@@ -43,7 +44,7 @@ theme: /
             $repeat<$OpenKeyWords>
             [$repeat<$OpenSkipWords>] 
             $projectName
-        a: Давай уже
+        a: Навык Sber911 подключен
 
     state: Fallback
         event!: noMatch
