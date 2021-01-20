@@ -5,6 +5,13 @@ function goToServiceGroup(name, context) {
     }, context);
 }
 
+function goToService(name, context) {
+    addAction({
+        type: "go_to_service",
+        name: name
+    }, context);
+}
+
 
 
 function goTo(place, context) {
