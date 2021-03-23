@@ -1,18 +1,9 @@
-function goToCateegory(name, context) {
+function goToCategory(name, context) {
     addAction({
         type: "go_to_category",
         name: name
     }, context);
 }
-
-function goToService(name, context) {
-    addAction({
-        type: "go_to_service",
-        name: name
-    }, context);
-}
-
-
 
 function goTo(place, context) {
     addAction({

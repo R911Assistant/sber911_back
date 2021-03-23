@@ -4,6 +4,6 @@ theme: /
         q!: (перей*/откр*/переход*/покаж*/показ*/отобраз*/выбер*/выбра*) [к] [дашборд*/отсчет*/отчет*/dashboard/групп*] ($AnyText::anyText)
             
         script:
-            goToServiceGroup($parseTree._anyText, $context);
+            goToCategory($parseTree._anyText, $context);
             
             
