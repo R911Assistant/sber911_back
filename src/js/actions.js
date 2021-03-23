@@ -1,6 +1,6 @@
-function goToCategory(name, context) {
+function goToElement(name, context) {
     addAction({
-        type: "go_to_category",
+        type: "go_to_element",
         name: name
     }, context);
 }

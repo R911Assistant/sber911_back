@@ -1,9 +1,9 @@
 theme: /
 
-    state: ПереходККатегории
+    state: ПереходКЭлементу
         q!: (перей*/откр*/переход*/покаж*/показ*/отобраз*/выбер*/выбра*) [к] [дашборд*/отсчет*/отчет*/dashboard/групп*] ($AnyText::anyText)
             
         script:
-            goToCategory($parseTree._anyText, $context);
+            goToElement($parseTree._anyText, $context);
             
             
