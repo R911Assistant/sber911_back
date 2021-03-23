@@ -1,6 +1,6 @@
-function goToServiceGroup(name, context) {
+function goToCateegory(name, context) {
     addAction({
-        type: "go_to_service_group",
+        type: "go_to_category",
         name: name
     }, context);
 }
