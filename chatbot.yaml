@@ -17,7 +17,6 @@ scriptsPreLoad:
     - /jsapi/http.js
   local:
     - /jsapi/mail.js
-    - /jsapi/reactions.js
 
 tests:
   include:
