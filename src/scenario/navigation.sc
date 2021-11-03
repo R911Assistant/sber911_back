@@ -20,7 +20,7 @@ theme: /
         script:
             openSomething($parseTree._anyText, $context);
             
-    state: OpenSomething
+    state: OpenLogistic
         q!: (перей*/откр*/переход*/покаж*/показ*/отобраз*/выбер*/выбра*) [к/на/в] (сберлогистик*)
             
         script:
