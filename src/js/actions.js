@@ -1,3 +1,25 @@
+function openIndustry(value, context) {
+    addAction({
+        type: "open_industry",
+        value: value
+    }, context);
+}
+
+function openElement(value, context) {
+    addAction({
+        type: "open_element",
+        value: value
+    }, context);
+}
+
+function openSomething(value, context) {
+    addAction({
+        type: "open_something",
+        value: value
+    }, context);
+}
+
+
 function goToElement(name, context) {
     addAction({
         type: "go_to_element",
