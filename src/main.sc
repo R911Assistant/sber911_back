@@ -36,7 +36,7 @@ theme: /
             $repeat<$OpenKeyWords>
             [$repeat<$OpenSkipWords>] 
             $projectName
-        a: Навык Sber911 подключен
+        #a: Навык Sber911 подключен
 
     state: Fallback
         event!: noMatch
