@@ -21,7 +21,7 @@ theme: /
             openSomething($parseTree._anyText, $context);
             
     state: Close
-        q!: (закро*/отмен*)
+        q!: (закро*/отмен*/закрыть/закр*)
             
         script:
             closeCurrent($context);
