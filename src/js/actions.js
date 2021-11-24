@@ -19,6 +19,25 @@ function openSomething(value, context) {
     }, context);
 }
 
+function closeCurrent(context) {
+    addAction({
+        type: "close",
+    }, context);
+}
+
+
+function play(context) {
+    addAction({
+        type: "play",
+    }, context);
+}
+
+function pause(context) {
+    addAction({
+        type: "pause",
+    }, context);
+}
+
 
 function goToElement(name, context) {
     addAction({
