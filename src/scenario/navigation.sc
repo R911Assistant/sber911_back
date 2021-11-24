@@ -28,14 +28,14 @@ theme: /
             
                         
     state: Play
-        q!: (запусти/запуск/плей/пуск)
+        q!: (запусти/запуск/плей/пуск/play)
             
         script:
             play($context);
             
             
     state: Stop
-        q!: (остан*/пауза/стоп)
+        q!: (остан*/пауза/стоп/pause)
             
         script:
             pause($context);
