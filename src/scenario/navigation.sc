@@ -34,7 +34,7 @@ theme: /
             play($context);
             
             
-    state: Stop
+    state: Pause
         q!: (остан*/пауза/стоп/pause)
             
         script:
